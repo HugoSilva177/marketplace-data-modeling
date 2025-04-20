@@ -16,6 +16,3 @@ COPY ./src /app
 WORKDIR /app/dbt_project
 
 RUN dbt deps --project-dir /app/dbt_project
-
-# Default command (optional)
-#CMD ["/bin/bash"]
